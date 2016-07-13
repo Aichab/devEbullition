@@ -111,9 +111,16 @@ li:hover ul {
 	display : block;
 }
 
+.navbar ul li  :hover{
+color: #9C309A;
+
+
+}
+
+
 .zoneDeco, .zoneAcc, .zoneVetm {
-	min-width : 320px;
-	min-height : 160px;
+	min-width : 500px;
+	min-height : 175px;
 	padding : 10px;
 	background-color : rgba(255,255,255,0.8) ;
 	background-repeat: no-repeat;
@@ -123,7 +130,7 @@ li:hover ul {
 
 
 .zoneVetm {
-	background-image: url(images/kimono.png);
+	background-image: url(images/chemises.png);
 	background-position: 160px center ;
 }
 
@@ -155,8 +162,8 @@ button:hover {
 	color:rgb(156,48,154);
 	font-family: 'BalineseFamily';
 	line-height: 0;
-	font-size: 80px;
-	margin-top: 60px;
+	font-size: 120px;
+	margin-top: 80px;
 }
 
 .logoHeader{
@@ -172,7 +179,7 @@ height: 116px
 .presentation{
 color: #63398B;
 font-family:'OpenSans-Light';
-margin-top:10px;
+margin-top:20px;
 font-size: 16px;
 
 }
@@ -385,7 +392,7 @@ font-size: 16px;
 .zoneTelechargement {
 	height : 140px;
 	width : 100%;
-	background-color: #63398B;
+	background-color:rgb(170,58,97);
 	text-align: center;
 	padding : 50px 0 20px 0;
 	margin-top: 50px;
@@ -567,7 +574,7 @@ font-size: 16px;
      float:left;
      margin-left:-80px;
  }
-  .twitter {
+  .google {
     float:left;
     margin-left:-80px;
 }
