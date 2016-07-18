@@ -75,7 +75,7 @@ a:hover {
 .logoH {
 	font-family: 'BalineseFamily';
 	color : #fff;
-	font-size: 48px;
+	font-size: 35px;
 	line-height: 0;
 }
 
@@ -93,9 +93,9 @@ a:hover {
 .navbar-collapse ul li .textPrincipal {
 
 	color: #ffffff;
-	margin-left:20px;
-	margin-right:8px;
-	font-size:16px;
+	margin-left:9px;
+	margin-right:9px;
+	font-size:15px;
 	line-height : 1.2;
 
 }
@@ -110,10 +110,12 @@ a:hover {
 li:hover ul {
 	display : block;
 }
+.navbar ul li a{
+	color: black;
+}
 
 .navbar ul li  :hover{
 color: #9C309A;
-
 
 }
 
@@ -125,23 +127,9 @@ color: #9C309A;
 	background-color : rgba(255,255,255,0.8) ;
 	background-repeat: no-repeat;
 	background-position: 180px center ;
+	font-size:16px;
+
 }
-
-
-
-.zoneVetm {
-	background-image: url(images/chemises.png);
-	background-position: 160px center ;
-}
-
-.zoneAcc {
-	background-image: url(images/colier.png);
-}
-
-.zoneDeco {
-	background-image: url(images/tapis.png);
-}
-
 
 .navbar-toggle {
 	border: none;
@@ -155,6 +143,7 @@ button:hover {
 .navbar-default .navbar-toggle .icon-bar {
 	background-color: #ffffff;
 }
+
 /*///////////HEADER////////////
 ////////////////////////////*/
 
@@ -332,7 +321,7 @@ font-size: 16px;
 	background-color : #fff;
 	height : 240px;
 	width : 100%;
-	background-image : url(images/miroires.png);
+	background-image : url(images/miroirs.png);
 	background-repeat: no-repeat;
 	background-position: 90% 70%;
 	
@@ -375,6 +364,7 @@ font-size: 16px;
 	margin: 0 0 30px 20px;
 	color: #3B3B3B;
 }
+
 
 
 
@@ -612,3 +602,29 @@ font-size: 16px;
     padding-left: 10px;
     padding-top: 4px;
 }
+
+/*///////////categories vetements///////////
+////////////////////////////*/
+.rouge{
+	background-color: red;
+	height: 200px;
+	
+
+}
+.jaune{
+	background-color: yellow;
+	height: 200px;
+
+}
+
+.vert{
+	background-color: green;
+	height: 200px;
+	
+	
+}
+.col-md-12{
+	margin-top: 100px;
+
+}
+
