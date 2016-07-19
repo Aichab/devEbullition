@@ -605,26 +605,58 @@ font-size: 16px;
 
 /*///////////categories vetements///////////
 ////////////////////////////*/
-.rouge{
-	background-color: red;
-	height: 200px;
-	
 
-}
-.jaune{
-	background-color: yellow;
-	height: 200px;
-
-}
-
-.vert{
-	background-color: green;
-	height: 200px;
-	
-	
-}
 .col-md-12{
-	margin-top: 100px;
+	margin-top: 120px;
 
 }
 
+.col-md-4 img{
+    height: 250px;
+    width: 300px;
+}
+.col-md-4 h3 a{
+    color: #77005A;
+    font-size: 18px;
+
+}
+.rouge{
+	width: 80%;
+	height: 200px;
+	background-color: red;
+	float: right;
+}
+.rouge:hover{
+	background-image: url("images/miroirs.png");
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+	
+}
+.tit{
+	margin: 45%  40% 40% 40%;}
+
+.jaune{
+	width: 80%;
+	height: 200px;
+	background-color: yellow;
+	margin: 0 auto;
+}
+.vert{
+	width: 80%;
+	height: 200px;
+	background-color: green;
+	float:left;
+}
+.test{
+	width: 70%;
+	float: right;
+    
+}
+.texte1{
+	width: 80%;
+	float: right;
+
+}
