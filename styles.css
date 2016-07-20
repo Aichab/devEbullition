@@ -607,56 +607,89 @@ font-size: 16px;
 ////////////////////////////*/
 
 .col-md-12{
-	margin-top: 120px;
+	margin-top: 70px;
 
 }
 
-.col-md-4 img{
-    height: 250px;
-    width: 300px;
-}
+
 .col-md-4 h3 a{
     color: #77005A;
     font-size: 18px;
 
 }
-.rouge{
-	width: 80%;
+.rouge ,.jaune ,.vert{
+
+	width: 360px;
 	height: 200px;
-	background-color: red;
-	float: right;
+	
 }
-.rouge:hover{
+
+.rouge{
+	background-image: url("images/miroirs.png");
+	background-repeat: no-repeat;
+	background-position: center;	
+    background-color: #F8F8F8;
+	margin-left: 50px;	
+}
+/*.rouge:hover{
 	background-image: url("images/miroirs.png");
 	background-color: transparent;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: center;	
+}*/
 
-
-	
+.titr{
+	text-align: center;
+	padding-top: 160px;
 }
-.tit{
-	margin: 45%  40% 40% 40%;}
+
 
 .jaune{
-	width: 80%;
-	height: 200px;
-	background-color: yellow;
-	margin: 0 auto;
+	
+	background-image: url("images/miroirs.png");
+	background-repeat: no-repeat;
+	background-position: center;	
+    background-color: #F8F8F8;
+	margin-left: 24px;
 }
-.vert{
-	width: 80%;
-	height: 200px;
-	background-color: green;
-	float:left;
-}
-.test{
-	width: 70%;
-	float: right;
-    
-}
-.texte1{
-	width: 80%;
-	float: right;
 
+.vert{
+	background-image: url("images/miroirs.png");
+	background-repeat: no-repeat;
+	background-position: center;	
+    background-color: #F8F8F8;	
+}
+.rangee2{
+margin-top: 50px;
+}
+
+ @media only screen and (max-width: 550px) {
+
+ 	
+    .rouge ,.jaune ,.vert{
+
+		width: 90%;
+		height: 250px;
+		margin-left: 15px;
+		margin-right: 15px;		
+    }
+
+.rangee2{
+margin-top: 0px;
+}
+}
+ @media only screen and (max-width: 990px) {
+
+ 	
+    .rouge ,.jaune ,.vert{
+
+		width: 90%;
+		height: 250px;
+		margin-left: 15px;
+		margin-right: 15px;		
+    }
+
+.rangee2{
+margin-top: 0px;
+}
 }
