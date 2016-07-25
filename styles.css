@@ -606,73 +606,128 @@ font-size: 16px;
 /*///////////categories vetements///////////
 ////////////////////////////*/
 
-.col-md-12{
-	margin-top: 70px;
-
-}
-
 
 .col-md-4 h3 a{
     color: #77005A;
     font-size: 18px;
-
 }
-.rouge ,.jaune ,.vert{
-
-	width: 360px;
-	height: 200px;
-	
-}
-
-.rouge{
-	background-image: url("images/miroirs.png");
-	background-repeat: no-repeat;
-	background-position: center;	
-    background-color: #F8F8F8;
-	margin-left: 50px;	
-}
-/*.rouge:hover{
-	background-image: url("images/miroirs.png");
-	background-color: transparent;
-	background-repeat: no-repeat;
-	background-position: center;	
-}*/
 
 .titr{
 	text-align: center;
-	padding-top: 160px;
+	padding-top: 220px;	
 }
 
-
-.jaune{
-	
-	background-image: url("images/miroirs.png");
+.liste{
+	height: 250px;
 	background-repeat: no-repeat;
-	background-position: center;	
-    background-color: #F8F8F8;
-	margin-left: 24px;
+	background-position: center;
+	background-size: contain;
+	background-color: #F8F8F8;	
 }
 
-.vert{
-	background-image: url("images/miroirs.png");
-	background-repeat: no-repeat;
-	background-position: center;	
-    background-color: #F8F8F8;	
+
+.bracelet:hover{
+	background-image: url("images/Copacabana Bleu.JPG");	
 }
+
+.collier:hover{
+	background-image: url("images/col.jpeg");	
+}
+
+.sac:hover{
+	background-image: url("images/Porte feuille .JPG");  
+}
+
+.foulard:hover{
+	background-image: url("images/foulard.jpg");	
+}
+
+.pareo:hover{
+	background-image: url("images/Beige .JPG");
+    background-size: 55%;
+}
+.bindi:hover{
+	background-image: url("images/Bindi nez.JPG");	
+}
+.sac{
+	background-image: url("images/Pochette .JPG");  
+}
+
+.bindi{
+	background-image: url("images/bii.JPG");	
+}
+
+.bracelet{
+	background-image: url("images/bra.JPG");	
+}
+
+.foulard{
+	background-image: url("images/soie.jpg");	
+}
+
+.collier{
+	background-image: url("images/collier .jpeg");
+    background-size: 55%;
+}
+
+.pareo{
+	background-image: url("images/par.JPG");
+    background-size: 55%;
+}
+
 .rangee2{
 margin-top: 50px;
 }
+
 .logoSite{
 	width: 300px;
 	margin-left: 40%;
+	margin-top: 80px;
 }
- @media only screen and (max-width: 550px) {
 
- 	
-    .rouge ,.jaune ,.vert{
-	 width: 75%;
+.maison {
+background-image: url("images/miroirs.png");
+
+}
+
+.table_art{
+background-image: url("images/nappe.JPG");
+}
+
+.tissu {
+background-image: url("images/SA5.JPG");
+
+}
+
+.divers {
+background-image: url("images/namasté.JPG");
+}
+
+.tunique{
+  background-image: url("images/Tie&Dye_Green.jpg");
+  background-size: 50%;
+}
+
+.veste{
+	background-image: url("images/DSCN1226.JPG");
+	background-size: 54%;
+}
+
+.chemise{
+	background-image: url("images/chemises.png");
+}
+
+.kimono{
+	background-image: url("images/Kimono Pink.jpg");
+	background-size: 54%;
+}
+
+
+ @media only screen and (max-width: 749px) {
+ 	 .liste{
 	 margin-left: 20px;
-	 margin-right: 20px;	
+	 margin-right: 20px;
+	 height: 250px;	
 	
     }
 
@@ -683,16 +738,20 @@ margin-top: 0px;
 	width: 200px;
 	margin-left:50px;
 } 
-
+.titr{
+	text-align: center;
+	padding-top: 170px;
 }
+}
+
 
 @media screen and (min-width: 750px) and (max-width: 980px){
 
  	
-    .rouge ,.jaune ,.vert{
+    .liste{
 
-		width: 95%;
-		height: 250px;
+		
+		height: 300px;
 		margin-left: 20px;
 		margin-right: 20px;	
 	
@@ -704,10 +763,13 @@ margin-top: 0px;
 
 .titr{
 	text-align: center;
-	padding-top: 190px;
+	padding-top: 230px;
 }
 .logoSite{
 	width: 200px;
 	margin-top: 30px;
 } 
 }
+
+
+
