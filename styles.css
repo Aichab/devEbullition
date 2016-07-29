@@ -606,12 +606,18 @@ font-size: 16px;
 /*///////////categories vetements///////////
 ////////////////////////////*/
 
+.logoSite{
+	width: 400px;
+	margin-left: 35%;
+	margin-top: 80px;
+}
+
 .titr{
 bottom: 10px;
 background:#FCF0F0 ;
 opacity: 1;
 height: 40px;
-width: 93%;
+width: 92%;
 text-align: center;
 position: absolute;
 font-size: 18px;
@@ -659,11 +665,7 @@ color: #77005A;
 margin-top: 50px;
 }
 
-.logoSite{
-	width: 400px;
-	margin-left: 35%;
-	margin-top: 80px;
-}
+
 
 .maison {
 background-image: url("images/miroirs.png");
@@ -770,7 +772,7 @@ background-image: url("images/soliflore ovale plat.JPG");
 /*///////////mediaqueries categories vetements///////////
 ////////////////////////////*/
 
- @media only screen and (max-width: 749px) {
+ @media  screen and(min-width: 350px) and (max-width: 749px) {
  	 .liste{
 	 margin-left: 20px;
 	 margin-right: 20px;
@@ -787,7 +789,7 @@ margin-top: 0px;
 	margin-left:50px;
 } 
 .titr{
-	width: 70%;
+	width: 88%;
 	
 }
 
@@ -817,7 +819,7 @@ margin-top: 0px;
 	margin-top: 30px;
 } 
 .titr{
-	width: 70%;
+	width: 82%;
 }
 
 }
