@@ -606,15 +606,17 @@ font-size: 16px;
 /*///////////categories vetements///////////
 ////////////////////////////*/
 
-
-.col-md-4 h3 a{
-    color: #77005A;
-    font-size: 18px;
-}
-
 .titr{
-	text-align: center;
-	padding-top: 220px;	
+bottom: 10px;
+background:#FCF0F0 ;
+opacity: 1;
+height: 40px;
+width: 93%;
+text-align: center;
+position: absolute;
+font-size: 18px;
+color: #77005A;
+	
 }
 
 .liste{
@@ -626,29 +628,7 @@ font-size: 16px;
 }
 
 
-.bracelet:hover{
-	background-image: url("images/Copacabana Bleu.JPG");	
-}
 
-.collier:hover{
-	background-image: url("images/col.jpeg");	
-}
-
-.sac:hover{
-	background-image: url("images/Porte feuille .JPG");  
-}
-
-.foulard:hover{
-	background-image: url("images/foulard.jpg");	
-}
-
-.pareo:hover{
-	background-image: url("images/Beige .JPG");
-    background-size: 55%;
-}
-.bindi:hover{
-	background-image: url("images/Bindi nez.JPG");	
-}
 .sac{
 	background-image: url("images/Pochette .JPG");  
 }
@@ -680,8 +660,8 @@ margin-top: 50px;
 }
 
 .logoSite{
-	width: 300px;
-	margin-left: 40%;
+	width: 400px;
+	margin-left: 35%;
 	margin-top: 80px;
 }
 
@@ -722,12 +702,80 @@ background-image: url("images/namasté.JPG");
 	background-size: 54%;
 }
 
+/*///////////Hover categories vetements///////////
+////////////////////////////*/
+
+.maison:hover {
+background-image: url("images/Guirlande double.JPG");
+
+}
+
+.table_art:hover{
+background-image: url("images/Nappe ronde (dia 170) +8 Serv motif cachemire sur blanc.JPG");
+}
+
+.tissu:hover {
+background-image: url("images/Nappes tulipes.JPG");
+
+}
+
+.divers:hover {
+background-image: url("images/soliflore ovale plat.JPG");
+}
+
+.tunique:hover{
+  background-image: url("images/Ikat Blue Porté.JPG");
+  background-size: 50%;
+}
+
+.veste:hover{
+	background-image: url("images/DSCN1229.JPG");
+	background-size: 54%;
+}
+
+.chemise:hover{
+	background-image: url("images/Bird_Pink.JPG");
+}
+
+.kimono:hover{
+	background-image: url("images/Kimono Pink.jpg");
+	background-size: 54%;
+}
+
+.bracelet:hover{
+	background-image: url("images/Copacabana Bleu.JPG");	
+}
+
+.collier:hover{
+	background-image: url("images/col.jpeg");	
+}
+
+.sac:hover{
+	background-image: url("images/Porte feuille .JPG");  
+}
+
+.foulard:hover{
+	background-image: url("images/foulard.jpg");	
+}
+
+.pareo:hover{
+	background-image: url("images/Beige .JPG");
+    background-size: 55%;
+}
+.bindi:hover{
+	background-image: url("images/Bindi nez.JPG");	
+}
+
+
+/*///////////mediaqueries categories vetements///////////
+////////////////////////////*/
 
  @media only screen and (max-width: 749px) {
  	 .liste{
 	 margin-left: 20px;
 	 margin-right: 20px;
 	 height: 250px;	
+	 margin-top: 30px;
 	
     }
 
@@ -739,9 +787,10 @@ margin-top: 0px;
 	margin-left:50px;
 } 
 .titr{
-	text-align: center;
-	padding-top: 170px;
+	width: 70%;
+	
 }
+
 }
 
 
@@ -754,6 +803,7 @@ margin-top: 0px;
 		height: 300px;
 		margin-left: 20px;
 		margin-right: 20px;	
+		margin-top: 30px;
 	
     }
 
@@ -761,15 +811,15 @@ margin-top: 0px;
 margin-top: 0px;
 }
 
-.titr{
-	text-align: center;
-	padding-top: 230px;
-}
+
 .logoSite{
 	width: 200px;
 	margin-top: 30px;
 } 
+.titr{
+	width: 70%;
 }
 
+}
 
 
