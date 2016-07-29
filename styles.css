@@ -147,26 +147,11 @@ button:hover {
 /*///////////HEADER////////////
 ////////////////////////////*/
 
-.logoHeader h1{
-	color:rgb(156,48,154);
-	font-family: 'BalineseFamily';
-	line-height: 0;
-	font-size: 120px;
-	margin-top: 80px;
-}
 
-.logoHeader{
-  height: auto;
-  padding: 80px 0 10px 0;
-}
 
-.logoHeader img{
-width: 116px;
-height: 116px
-}
 
 .presentation{
-color: #63398B;
+color: #760059;
 font-family:'OpenSans-Light';
 margin-top:20px;
 font-size: 16px;
@@ -771,5 +756,35 @@ margin-top: 0px;
 } 
 }
 
+/*/////////////////////////////////////////////////////////////
+//////////////////////Liste Produits Maroquinerie//////////////
+/////////////////////////////////////////////////////////////*/
 
+
+.imgmar{
+	width:247px;
+	height:150px;
+
+}
+
+.bloc{
+	width: 250px;
+	height:220px;
+	float:left;
+	margin-left:5px;
+	font-family: 'OpenSans-Light';
+}
+
+.bloc:hover{
+	border:1px solid #760059;
+}
+
+
+.bloc h5{
+	color:black;
+}
+
+.bloc p{
+	color:#760059;
+}
 
