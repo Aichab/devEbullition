@@ -148,12 +148,13 @@ button:hover {
 ////////////////////////////*/
 
 
-
+.logoSite1{
+	margin:80px 0px 0px 0px;
+}
 
 .presentation{
 color: #760059;
 font-family:'OpenSans-Light';
-margin-top:20px;
 font-size: 16px;
 
 }
@@ -592,9 +593,8 @@ font-size: 16px;
 ////////////////////////////*/
 
 .logoSite{
-	width: 400px;
-	margin-left: 35%;
-	margin-top: 80px;
+	margin:100px 0 50px 0;
+	width: 100%;
 }
 
 .titr{
@@ -614,7 +614,7 @@ color: #77005A;
 	height: 250px;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: contain;
+	background-size: cover;
 	background-color: #F8F8F8;	
 }
 
@@ -638,12 +638,12 @@ color: #77005A;
 
 .collier{
 	background-image: url("images/collier .jpeg");
-    background-size: 55%;
+   
 }
 
 .pareo{
 	background-image: url("images/par.JPG");
-    background-size: 55%;
+   
 }
 
 .rangee2{
@@ -672,12 +672,12 @@ background-image: url("images/namasté.JPG");
 
 .tunique{
   background-image: url("images/Tie&Dye_Green.jpg");
-  background-size: 50%;
+ 
 }
 
 .veste{
 	background-image: url("images/DSCN1226.JPG");
-	background-size: 54%;
+	
 }
 
 .chemise{
@@ -686,7 +686,6 @@ background-image: url("images/namasté.JPG");
 
 .kimono{
 	background-image: url("images/Kimono Pink.jpg");
-	background-size: 54%;
 }
 
 /*///////////Hover categories vetements///////////
@@ -743,6 +742,7 @@ background-image: url("images/soliflore ovale plat.JPG");
 
 .foulard:hover{
 	background-image: url("images/foulard.jpg");	
+	background-size: 55%;
 }
 
 .pareo:hover{
@@ -759,10 +759,8 @@ background-image: url("images/soliflore ovale plat.JPG");
 
  @media  screen and(min-width: 350px) and (max-width: 749px) {
  	 .liste{
-	 margin-left: 20px;
-	 margin-right: 20px;
-	 height: 250px;	
-	 margin-top: 30px;
+	 height: 150px;	
+	 padding-top: 60px;
 	
     }
 
@@ -770,11 +768,10 @@ background-image: url("images/soliflore ovale plat.JPG");
 margin-top: 0px;
 }
 .logoSite{
-	width: 200px;
-	margin-left:50px;
+	margin-bottom: 20px;
 } 
 .titr{
-	width: 88%;
+	width: 93%
 	
 }
 
@@ -785,12 +782,8 @@ margin-top: 0px;
 
  	
     .liste{
-
-		
-		height: 300px;
-		margin-left: 20px;
-		margin-right: 20px;	
-		margin-top: 30px;
+		height: 250px;
+		margin-top: 40px;
 	
     }
 
@@ -800,11 +793,10 @@ margin-top: 0px;
 
 
 .logoSite{
-	width: 200px;
-	margin-top: 30px;
+	
 } 
 .titr{
-	width: 82%;
+	width: 93%;
 }
 
 }
